@@ -35,7 +35,7 @@ def load_logged_in_user():
 
 
 
-# Login
+# Register
 @bp.route('/register', methods=('GET', 'POST'))
 def register():
     if request.method == 'POST':
