@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+
+html {
+		font-family:'Oswald', sans-serif;
+		background-color: #001e1d;
+		padding: 1rem;
+}
+
+body {
+		max-width: 960px;
+		margin: 0 auto;
+		background-color: #abd1c6;
+}
+
+h1 {
+		font-family: serif;
+		color: #001e1d;
+		margin: 1rem 0;
+}
+
+a {
+		color: #e8e4e6;
+}
+
+hr {
+		border: none;
+		border-top: 2px solid #0f3433;
+}
+
+nav {
+		background-color: #004643;
+		display: flex;
+		align-items: center;
+		padding: 0 0.5rem;
+}
+
+nav h1 {
+		flex: auto;
+		margin: 0;
+		color: #e8e4e6;
+}
+
+nav h1 a {
+		text-decoration: none;
+		padding: 0.25rem 0.5rem;
+}
+
+nav ul {
+		display: flex;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+}
+
+nav ul li a, nav ul li span, header .action {
+		display: block;
+		padding: 0.5rem;
+}
+
+.content {
+		padding: 0 1rem 1rem;
+}
+
+.content > header {
+		border-bottom: 2px solid #0f3433;
+		display: flex;
+		align-items: flex-end;
+}
+
+.content > header h1 {
+		flex: auto;
+		margin: 1rem 0 0.25rem 0;
+}
+
+.flash {
+		margin: 1em 0;
+		padding: 1wm;
+		background-color: #0f3433;
+		border: 2px solid #001e1d;
+}
+
+.post > header {
+		display: flex;
+		align-items: flex-end;
+		font-size: 0.85em;
+}
+
+.post > header > div:first-of-type { flex: auto }
+
+.post > header h1 {
+		font-size: 1.5em;
+		margin-bottom: 0;
+}
+
+.content form {
+		margin: 1em 0;
+		display: flex;
+		flex-direction: column;
+}
+
+.content label {
+		font-family: 'Noto Sans', sans-serif;
+		font-weight: bold;
+		margin-bottom: 0.5em;
+}
+
+.content input, .content textarea { margin-bottom: 1em }
+
+.content textarea {
+		min-height: 12em;
+		resize: vertical;
+}
+
+input.danger { color: #e16162 }
+
+input[type=submit] {
+		align-self: center;
+		min-width: 10em;
+		border: none;
+		background-color: #001e1d;
+		color: #fffffe;
+		padding: 10px 10px;
+		font-family: 'Noto Sans';
+		margin-bottom: 0;
+		margin-top: 10px;
+}
+
+/*#0f3433*/
